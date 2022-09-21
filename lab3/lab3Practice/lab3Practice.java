@@ -19,7 +19,12 @@ public class lab3Practice {
             System.out.println("4 - Get prime nums bigger than 5 \n");
             System.out.println("0 - Quit \n");
 
-            int operater = input.nextInt();
+            int operator = input.nextInt();
+
+            if (operator == 0) {
+                input.close();
+                System.exit(0);
+            }
 
             System.out.println("Input size of the list: \n");
 
@@ -35,7 +40,7 @@ public class lab3Practice {
 
             List<Integer> result = new ArrayList<Integer>();
 
-            switch (operater) {
+            switch (operator) {
                 case 1:
                     result = list.stream().filter(temp -> (int) temp % 2 == 0).sorted().collect(Collectors.toList());
                     break;
