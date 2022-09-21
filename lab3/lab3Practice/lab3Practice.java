@@ -33,7 +33,7 @@ public class lab3Practice {
                 list.add(input.nextInt());
             }
 
-            List result = new ArrayList<Integer>();
+            List<Integer> result = new ArrayList<Integer>();
 
             switch (operater) {
                 case 1:
