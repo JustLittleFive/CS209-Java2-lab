@@ -1,4 +1,4 @@
-package java2.lab4;
+package lab4;
 
 import java.io.IOException;
 import java.lang.Thread.State;
