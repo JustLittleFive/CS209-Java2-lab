@@ -1,4 +1,4 @@
-package practice.lab4;
+package java2.lab4;
 
 import java.io.IOException;
 import java.lang.Thread.State;
@@ -70,6 +70,8 @@ public class Practice4 {
             System.out.print(": ");
             for(City c: largeCitiesByState.get(key)){
                 System.out.print(c.name);
+                System.out.print(" ");
+                System.out.print(c.population);
                 System.out.print(", ");
             }
             System.out.println();
