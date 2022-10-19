@@ -14,9 +14,8 @@
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package lab5;
 
-import java.io.*;
+ import java.io.*;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
