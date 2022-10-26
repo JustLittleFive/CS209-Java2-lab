@@ -1,0 +1,2 @@
+JMH S 9 lab7.Test S 49 lab7.jmh_generated.Test_testReentrantLock_jmhTest S 17 testReentrantLock S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
+JMH S 9 lab7.Test S 48 lab7.jmh_generated.Test_testSynchronized_jmhTest S 16 testSynchronized S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 

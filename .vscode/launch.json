@@ -6,6 +6,49 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "lab7.Test",
+            "projectName": "lab7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "tutorial.lab7.Test",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch lab6",
+            "request": "launch",
+            "mainClass": "lab6",
+            "projectName": "",
+            "cwd": "${fileDirname}"
+        },
+        {
+            "type": "java",
+            "name": "Launch lab6",
+            "request": "launch",
+            "projectName": "",
+            "mainClass": "${file}",
+            "cwd": "${fileDirname}"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackTraceTest",
+            "request": "launch",
+            "mainClass": "tutorial.lab6.StackTraceTest"
+        },
+        {
+            "type": "java",
             "name": "Launch FilesExample",
             "request": "launch",
             "mainClass": "tutorial.lab6.FilesExample",

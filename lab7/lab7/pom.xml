@@ -4,22 +4,21 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>practice2.lab2</groupId>
-  <artifactId>practice2</artifactId>
+  <groupId>lab7</groupId>
+  <artifactId>lab7</artifactId>
   <version>1.0</version>
 
-  <name>practice2</name>
+  <name>lab7</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
-
     <dependency>
       <groupId>org.openjdk.jmh</groupId>
       <artifactId>jmh-java-benchmark-archetype</artifactId>
@@ -37,12 +36,12 @@
       <groupId>org.openjdk.jmh</groupId>
       <artifactId>jmh-generator-annprocess</artifactId>
       <version>1.35</version>
-      </dependency>
-      <dependency>
+    </dependency>
+    <dependency>
       <groupId>org.openjdk.jmh</groupId>
       <artifactId>jmh-core</artifactId>
       <version>1.35</version>
-      </dependency>
+    </dependency>
   </dependencies>
 
   <build>
