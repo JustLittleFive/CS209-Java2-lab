@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: lab13.HelloControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.89 sec - in lab13.HelloControllerTest
